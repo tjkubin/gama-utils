@@ -155,7 +155,7 @@ for eo in Eobs: # prochazi stanoviska
 				break
 		if ez==None:
 			sys.stderr.write("z-angle is missing\n")
-			sys.stderr.write("deleting <s-distance from=\"%s\" to=\"%s\"/>\n" %(stn,id))
+			sys.stderr.write("deleting <s-distance from=\"%s\" to=\"%s\"/>\n" %(stn,to))
 			eo.removeChild(ed) # odstraneni sikme delky
 			continue
 		# redukce na vodorovnou

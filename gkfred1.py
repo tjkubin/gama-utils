@@ -74,7 +74,7 @@ for eo in Eobs:
 				ez = e
 				break
 		if ez==None:
-			sys.stderr.write("no <z-angle> for  <s-distance from=\"%s\" to=\"%s\"/>\n" %(stn,id))
+			sys.stderr.write("no <z-angle> for  <s-distance from=\"%s\" to=\"%s\"/>\n" %(stn,to))
 			sys.stderr.write("height difference not computed\n")
 			#eo.removeChild(ed) # odstraneni sikme delky
 			continue
