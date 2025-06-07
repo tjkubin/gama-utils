@@ -1,6 +1,6 @@
 .PHONY: prep adj coord
 
-all: prep ajd coord
+all: prep adj coord
 
 prep:
 	../mapa2gkf.awk -v dir=10 dist="1 1.5" meas.asc > meas.gkf
