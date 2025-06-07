@@ -2,7 +2,7 @@
 
 % computes covariance matrix of coordinate differences of two points
 % cm_file  ...  covariance matrix
-% p1, p12  ...  indexes of point 1 and point 2
+% p1, p2  ...  indexes of point 1 and point 2
 % dim      ...  network points dimension (1,2,3)
 
 
